@@ -1,6 +1,551 @@
 {
-  "id": "my_story",
-  "title": "我的故事",
-  "nodes": [],
+  "id": "daughter-evening-walk-20261026",
+  "title": "和爸爸出去走走",
+  "nodes": [
+    {
+      "id": "walk-before-school",
+      "title": "放学前",
+      "contact": "dad",
+      "app": "kakao",
+      "lines": [
+        {
+          "role": "npc",
+          "text": "放学了吗"
+        },
+        {
+          "role": "player",
+          "text": "还没有"
+        },
+        {
+          "role": "npc",
+          "text": "好"
+        },
+        {
+          "role": "player",
+          "text": "你干嘛"
+        },
+        {
+          "role": "npc",
+          "text": "在外面"
+        },
+        {
+          "role": "player",
+          "text": "又出去？"
+        },
+        {
+          "role": "npc",
+          "text": "嗯"
+        },
+        {
+          "role": "player",
+          "text": "去哪"
+        },
+        {
+          "role": "npc",
+          "text": "附近走走"
+        },
+        {
+          "role": "player",
+          "text": "你什么时候回来"
+        },
+        {
+          "role": "npc",
+          "text": "等你"
+        },
+        {
+          "role": "player",
+          "text": "等我干嘛"
+        },
+        {
+          "role": "npc",
+          "text": "一起回去"
+        },
+        {
+          "role": "player",
+          "text": "那你来学校接我不就好了"
+        },
+        {
+          "role": "npc",
+          "text": "本来想去的，后来想了想，你应该不想让我去"
+        },
+        {
+          "role": "player",
+          "text": "……你还挺懂我"
+        },
+        {
+          "role": "npc",
+          "text": "嗯"
+        }
+      ]
+    },
+    {
+      "id": "walk-meetup",
+      "title": "18:24 · 碰面",
+      "contact": "dad",
+      "app": "kakao",
+      "lines": [
+        {
+          "role": "npc",
+          "text": "看到你了"
+        },
+        {
+          "role": "player",
+          "text": "在哪"
+        },
+        {
+          "role": "npc",
+          "text": "你往前走"
+        },
+        {
+          "role": "player",
+          "text": "没看到"
+        },
+        {
+          "role": "npc",
+          "text": "别走那么快"
+        },
+        {
+          "role": "player",
+          "text": "哦"
+        },
+        {
+          "role": "player",
+          "text": "看到了"
+        },
+        {
+          "role": "npc",
+          "text": "嗯"
+        },
+        {
+          "role": "player",
+          "text": "你怎么坐在那里"
+        },
+        {
+          "role": "npc",
+          "text": "走累了"
+        },
+        {
+          "role": "player",
+          "text": "才刚见面你就累"
+        },
+        {
+          "role": "npc",
+          "text": "今天走了挺久"
+        },
+        {
+          "role": "player",
+          "text": "那你还叫我出来"
+        },
+        {
+          "role": "npc",
+          "text": "现在不走了"
+        },
+        {
+          "role": "player",
+          "text": "那回家？"
+        },
+        {
+          "role": "npc",
+          "text": "不想回"
+        },
+        {
+          "role": "player",
+          "text": "……那去哪"
+        },
+        {
+          "role": "npc",
+          "text": "不知道。陪爸爸走一会儿"
+        }
+      ]
+    },
+    {
+      "id": "walk-slow",
+      "title": "18:51 · 慢慢走",
+      "contact": "dad",
+      "app": "kakao",
+      "lines": [
+        {
+          "role": "npc",
+          "text": "走慢点，前面有台阶。"
+        },
+        {
+          "role": "player",
+          "text": "你走慢一点"
+        },
+        {
+          "role": "npc",
+          "text": "我已经很慢了"
+        },
+        {
+          "role": "player",
+          "text": "没有"
+        },
+        {
+          "role": "npc",
+          "text": "那你走前面"
+        },
+        {
+          "role": "player",
+          "text": "我才不要"
+        },
+        {
+          "role": "npc",
+          "text": "为什么"
+        },
+        {
+          "role": "player",
+          "text": "你又走丢"
+        },
+        {
+          "role": "npc",
+          "text": "不会"
+        },
+        {
+          "role": "player",
+          "text": "上次是谁走错路"
+        },
+        {
+          "role": "npc",
+          "text": "……那次不算"
+        },
+        {
+          "role": "player",
+          "text": "算"
+        },
+        {
+          "role": "npc",
+          "text": "好，算爸爸的"
+        },
+        {
+          "role": "player",
+          "text": "本来就是"
+        }
+      ]
+    },
+    {
+      "id": "walk-scarf",
+      "title": "19:16 · 围巾",
+      "contact": "dad",
+      "app": "kakao",
+      "lines": [
+        {
+          "role": "npc",
+          "text": "冷不冷？"
+        },
+        {
+          "role": "player",
+          "text": "爸爸，我有点冷"
+        },
+        {
+          "role": "npc",
+          "text": "我就知道"
+        },
+        {
+          "role": "player",
+          "text": "你知道还不早点说"
+        },
+        {
+          "role": "npc",
+          "text": "你出门的时候穿那么少"
+        },
+        {
+          "role": "player",
+          "text": "我没觉得冷"
+        },
+        {
+          "role": "npc",
+          "text": "现在呢"
+        },
+        {
+          "role": "player",
+          "text": "现在觉得了"
+        },
+        {
+          "role": "npc",
+          "text": "过来，围巾给你"
+        },
+        {
+          "role": "player",
+          "text": "那你呢"
+        },
+        {
+          "role": "npc",
+          "text": "我不用"
+        },
+        {
+          "role": "player",
+          "text": "你明明也冷"
+        },
+        {
+          "role": "npc",
+          "text": "爸爸没事"
+        },
+        {
+          "role": "player",
+          "text": "又来了"
+        },
+        {
+          "role": "npc",
+          "text": "乖"
+        },
+        {
+          "role": "player",
+          "text": "……知道了"
+        }
+      ]
+    },
+    {
+      "id": "walk-namsan-route",
+      "title": "19:48 · 去南山塔的路",
+      "contact": "dad",
+      "app": "kakao",
+      "lines": [
+        {
+          "role": "npc",
+          "text": "要不要先喝口水？"
+        },
+        {
+          "role": "player",
+          "text": "我们是不是走太远了"
+        },
+        {
+          "role": "npc",
+          "text": "还好"
+        },
+        {
+          "role": "player",
+          "text": "这不是去南山塔的路吗"
+        },
+        {
+          "role": "npc",
+          "text": "嗯"
+        },
+        {
+          "role": "player",
+          "text": "你早就想去南山塔是不是"
+        },
+        {
+          "role": "npc",
+          "text": "有一点"
+        },
+        {
+          "role": "player",
+          "text": "那你刚才为什么不说"
+        },
+        {
+          "role": "npc",
+          "text": "你要是不想去就回家"
+        },
+        {
+          "role": "player",
+          "text": "谁说不想去了"
+        },
+        {
+          "role": "npc",
+          "text": "那就去"
+        },
+        {
+          "role": "player",
+          "text": "可是我没带水"
+        },
+        {
+          "role": "npc",
+          "text": "爸爸带了，在包里"
+        },
+        {
+          "role": "player",
+          "text": "你怎么什么都有"
+        },
+        {
+          "role": "npc",
+          "text": "出门之前拿的"
+        }
+      ]
+    },
+    {
+      "id": "walk-city-view",
+      "title": "20:23 · 城市夜景",
+      "contact": "dad",
+      "app": "kakao",
+      "lines": [
+        {
+          "role": "npc",
+          "text": "看前面，晚上的城市挺漂亮。"
+        },
+        {
+          "role": "player",
+          "text": "爸爸，你看前面"
+        },
+        {
+          "role": "npc",
+          "text": "看到了"
+        },
+        {
+          "role": "player",
+          "text": "晚上这里好漂亮"
+        },
+        {
+          "role": "npc",
+          "text": "嗯"
+        },
+        {
+          "role": "player",
+          "text": "白天来的时候没觉得"
+        },
+        {
+          "role": "npc",
+          "text": "晚上不一样"
+        },
+        {
+          "role": "player",
+          "text": "你以前来过吗"
+        },
+        {
+          "role": "npc",
+          "text": "来过"
+        },
+        {
+          "role": "player",
+          "text": "和谁"
+        },
+        {
+          "role": "npc",
+          "text": "朋友"
+        },
+        {
+          "role": "player",
+          "text": "哦"
+        },
+        {
+          "role": "npc",
+          "text": "怎么了"
+        },
+        {
+          "role": "player",
+          "text": "没怎么"
+        },
+        {
+          "role": "npc",
+          "text": "那就好"
+        }
+      ]
+    },
+    {
+      "id": "walk-tower",
+      "title": "20:46 · 南山塔",
+      "contact": "dad",
+      "app": "kakao",
+      "lines": [
+        {
+          "role": "npc",
+          "text": "到了，慢点走。"
+        },
+        {
+          "role": "player",
+          "text": "到了"
+        },
+        {
+          "role": "npc",
+          "text": "嗯"
+        },
+        {
+          "role": "player",
+          "text": "真的好高"
+        },
+        {
+          "role": "npc",
+          "text": "怕不怕"
+        },
+        {
+          "role": "player",
+          "text": "不怕"
+        },
+        {
+          "role": "npc",
+          "text": "那就好"
+        },
+        {
+          "role": "player",
+          "text": "你站过来一点"
+        },
+        {
+          "role": "npc",
+          "text": "干嘛"
+        },
+        {
+          "role": "player",
+          "text": "拍照"
+        },
+        {
+          "role": "npc",
+          "text": "又拍"
+        },
+        {
+          "role": "player",
+          "text": "快点，不要动"
+        },
+        {
+          "role": "npc",
+          "text": "好"
+        }
+      ]
+    },
+    {
+      "id": "walk-locks-photo",
+      "title": "晚上 · 挂锁和拍照",
+      "contact": "dad",
+      "app": "kakao",
+      "lines": [
+        {
+          "role": "npc",
+          "text": "这里好多锁，你想看看吗？"
+        },
+        {
+          "role": "player",
+          "text": "这里好多锁"
+        },
+        {
+          "role": "npc",
+          "text": "你想挂吗？"
+        },
+        {
+          "role": "player",
+          "text": "想"
+        },
+        {
+          "role": "npc",
+          "text": "那我们去找一个"
+        },
+        {
+          "role": "player",
+          "text": "我还没想好要写什么"
+        },
+        {
+          "role": "npc",
+          "text": "不着急，慢慢想"
+        },
+        {
+          "role": "player",
+          "text": "爸爸，给你拍一张"
+        },
+        {
+          "role": "npc",
+          "text": "拍我干什么？"
+        },
+        {
+          "role": "player",
+          "text": "好看"
+        },
+        {
+          "role": "npc",
+          "text": "……拍得好看吗？"
+        },
+        {
+          "role": "player",
+          "text": "好看"
+        }
+      ]
+    }
+  ],
   "publicTexts": {}
 }

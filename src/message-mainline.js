@@ -25,11 +25,11 @@ function applyMessageHistory(n){templateApplyHistory(n);}
 function resolveMessageNodes(){const m=storyState().mainline;if(!m)return;for(const n of m.queue){if(n.status!=='locked'||!n.dependsOn.every(id=>m.queue.find(p=>p.id===id)?.status==='completed'))continue;applyMessageHistory(n);n.status='available';appendMainlineLine(n,n.lines[0],true);n.cursor=1;n.status='notified';n.deliveredAt=Date.now();}}
 function completeMessageNode(n){n.status='completed';n.completedAt=Date.now();if(n.flag)worldStoryFlag(n.flag);
  resolveMessageNodes();if(storyState().mainline.queue.every(n=>n.status==='completed')){storyState().mainline.status='completed';storyState().mainline.completedAt=Date.now();storyRecord('message-ending',storyState().mainline.title+' · 已完成');}}
-function markMainlineOpened(n){n.status='opened';const c=mainlineConversation(n.ctx);for(const m of c.messages.filter(m=>m.mainlineNodeId===n.id))m.read=true;const notice=state.notifications.find(x=>x.id===n.notificationId);if(notice)notice.read=true;n.nextUIAt=Date.now()+1000;}
+function markMainlineOpened(n){n.status='opened';const c=mainlineConversation(n.ctx);for(const m of c.messages.filter(m=>m.mainlineNodeId===n.id))m.read=true;const notice=state.notifications.find(x=>x.id===n.notificationId);if(notice)notice.read=true;n.nextUIAt=Date.now()+1800;}
 function tickMessageMainline(){if(!storyEnabled()||!state.unlocked||document.hidden||$('#storyWelcome')||storyOnboarding||$('.world-sheet'))return;
  const n=mainlineCurrent();if(!n||n.status==='waiting_choice')return;
  try{let changed=false;storyAtomic(()=>{if(['available','notified'].includes(n.status)){markMainlineOpened(n);changed=true;return;}if(n.nextUIAt>Date.now())return;
-  if(n.cursor<n.lines.length){appendMainlineLine(n,n.lines[n.cursor]);n.cursor++;n.nextUIAt=Date.now()+1400;changed=true;}
+  if(n.cursor<n.lines.length){const line=n.lines[n.cursor];appendMainlineLine(n,line);n.cursor++;const length=String(line.text||'').length;n.nextUIAt=Date.now()+Math.min(5200,1800+length*45);changed=true;}
   else{if(n.choice)n.status='waiting_choice';else completeMessageNode(n);changed=true;}
  });if(changed){renderApp(currentApp);renderLockNotifications();storyPresentUpdates();}}catch(e){console.error('消息剧情未保存',e.message);}
 }
