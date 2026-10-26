@@ -1,6 +1,31 @@
 {
   "schemaVersion": 1,
   "preset": "blank",
-  "storageNamespace": "phone-life-blank-v1",
-  "overrides": {}
+  "storageNamespace": "phone-life-daughter-v1",
+  "overrides": {
+    "scenarioFile": "config/scenario.json",
+    "player": {
+      "realName": "我",
+      "stageName": "我",
+      "age": 16,
+      "nationality": "中国",
+      "groupType": "solo",
+      "languages": [
+        "中文"
+      ],
+      "roleInGroup": [],
+      "debutYears": 0
+    },
+    "contacts": [
+      {
+        "key": "dad",
+        "name": "明宰铉",
+        "handle": "jaehyun_dad",
+        "slot": "familyMembers",
+        "familyRelation": "爸爸",
+        "profession": "艺人",
+        "bio": "女儿的爸爸。说话简短自然，细心，会默默照顾女儿。"
+      }
+    ]
+  }
 }
